@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(background.png);
+  background-position: center;
+  background-size: cover;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+  position: relative;
+}
+.navbar {
+  width: 100%;
+  height: 15vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 160px;
+  cursor: pointer;
+  animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.cart {
+  width: 40px;
+  cursor: pointer;
+}
+nav {
+  flex: 1;
+  padding-left: 850px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #feffff;
+  text-shadow: 2px 2px #2b7a78;
+}
+.content h1 {
+  font-size: 60px;
+  font-weight: 100;
+  margin-top: 24px;
+  margin-bottom: 15px;
+  color: #feffff;
+}
+.content h1 ul {
+  font-size: 60px;
+  font-weight: 100;
+  margin-top: 24px;
+  margin-bottom: 15px;
+  color: #17252a;
+}
+
+.content p {
+  font-size: 20px;
+  color: #17252a;
+}
+.content {
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.content.btn {
+  display: inline-block;
+  background: linear-gradient(45deg, #87adfe, #ff77cd);
+  border-radius: 6px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #feffff;
+  box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+}
+.arrow-icons {
+  margin-top: 40px;
+  display: flex;
+}
+.arrow-icons img {
+  width: 40px;
+  margin-right: 25px;
+}
+.feature-img {
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 160px;
+}
+.feature-img-service {
+  height: 100%;
+  bottom: 0;
+  right: 160px;
+  width: 100px;
+  height: 80px;
+  background: transparent;
+  position: relative;
+  animation: mymove 5s;
+  animation-timing-function: linear;
+}
+@keyframes mymove {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 200px;
+  }
+}
+.social-links {
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -80px;
+  bottom: 180px;
+}
+.social-links a {
+  text-decoration: none;
+  text-shadow: 2px 2px #2b7a78;
+  color: #def2f1;
+  padding-right: 35px;
+  font-size: 14px;
+}
+.detection {
+  height: 40%;
+  position: absolute;
+  bottom: 0;
+  right: 300px;
+}
+input {
+  background-color: #17252a;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.button-mt-3 {
+  position: center;
+  background-color: #17252a;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
